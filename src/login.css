@@ -1,0 +1,59 @@
+.cont-login {
+    height: 400px;
+    width: 400px;
+    margin-top: 8%;
+    background-color: rgb(136, 146, 146);
+    border-radius: 15%;
+}
+
+.h3-cont {
+    color: black;
+    margin-left: 35%;
+
+}
+
+.cont-login2 {
+
+    margin-left: 4%;
+}
+
+
+
+
+
+.h4-cont {
+    font-size: 15px;
+    margin-left: 14%;
+
+}
+
+.btn-login {
+    margin-left: 35%;
+}
+
+.sign {
+
+    margin-left: 35%;
+}
+
+@media only screen and (max-width: 480px){
+
+    .cont-login {
+        height: 55vh;
+        width: 90vw;
+        font-size: 140%;
+        margin-top: 40%;
+        background-color: rgb(136, 146, 146);
+        border-radius: 15%;
+    }
+   .btn-login {
+    margin-left: 25%;
+}
+   
+.h4-cont {
+    font-size: 100%;
+    margin-left: 14%;
+
+}
+
+}

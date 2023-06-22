@@ -1,0 +1,62 @@
+.sofa-img1{
+   height:55%;
+   width:80%;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+.sofa1{
+    height: 300px;
+    width: 380px;
+    background-color: rgb(255, 255, 255);
+  
+    margin-left: 5%;
+}
+.sofa1-text{
+
+    margin-top: 4%;
+    
+}
+.h3-sofa{
+    margin-left: 2%;
+}
+
+.sofa1 .free-sofa1{
+    color:rgb(173, 118, 17);
+}
+
+@media only screen and (max-width: 480px){
+
+    .sofa-img1{
+        height:25vh;
+        width:80vw;
+         margin-left: 1%;
+         margin-top: 5%;
+     }
+
+     .sofa1{
+        height: 45vh;
+        width: 50vw;
+        background-color: rgb(255, 255, 255);
+      
+        margin-left: 5%;
+    }
+    .sofa1-text{
+
+        margin-top: 4%;
+        width: 80vw;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
