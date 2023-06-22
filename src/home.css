@@ -118,8 +118,8 @@ html{
     color: brown;
 }
   .img15 {
-    height: 40%;
-    width: 50%;
+    height: 20vh;
+    width: 30vh;
     display: block;
   margin-left: auto;
   margin-right: auto;
@@ -128,7 +128,7 @@ html{
 .cont-para{
     background-color: grey;
     width: 67%;
-    height: 60%;
+    height: 65%;
   
     margin-top: 10%;
     border-radius: 15%;
@@ -163,8 +163,8 @@ html{
 
 }
 .map{
-    height: 100px;
-    width: 10px;
+    height: 12vh;
+    width: 6vw;
 }
 .img4{
     height: 60%;
@@ -240,8 +240,8 @@ html{
     
     }
     .img2{
-        height: 200px;;
-        width:200px;
+        height: 20vh;
+        width:80vw;
         margin-top: 15%;
         margin-left: 10%;
     }
@@ -256,10 +256,7 @@ html{
         font-size: 10px;
     }
 
-    .map{
-        height: 60px;
-        width: 60px;
-    }
+   
     .cont-para{
         background-color: grey;
         width: 92%;
@@ -268,6 +265,18 @@ html{
         margin-top: 10%;
         border-radius: 15%;
         
+    }
+    .img15 {
+        height: 20vh;
+        width: 28vh;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+     
+    }
+    .map{
+        height: 7vh;
+        width: 17vw;
     }
    
 }

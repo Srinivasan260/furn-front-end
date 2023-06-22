@@ -25,6 +25,14 @@ import Chair from "./Products/chair";
 import Dinning from "./Products/dinning";
 import Dresser from "./Products/dresser";
 
+
+
+
+// Order files
+
+import PlaceOrders from "./Orders/Place-Orders";
+import ViewOrder from "./Orders/View-Order";
+
 function App() {
   return (
 
@@ -43,7 +51,14 @@ function App() {
           <Route path="/product/chair" element={<Chair />} />
           <Route path="/product/dinning" element={<Dinning />} />
           <Route path="/product/dresser" element={<Dresser />} />
+          
         </Route>
+        <Route path="/Orders" element={<PlaceOrders />} />
+        <Route path="/view" element={<ViewOrder/>} />
+
+
+
+        
       </Route>
     </Routes>
   </BrowserRouter>

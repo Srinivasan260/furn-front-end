@@ -29,7 +29,7 @@ function Layout() {
                         <Nav.Link href="/a">About</Nav.Link>&nbsp;&nbsp;&nbsp;
                         <Nav.Link href="product"> Products</Nav.Link>&nbsp;&nbsp;&nbsp;
                         <Nav.Link href="/sk">Help</Nav.Link>&nbsp;&nbsp;
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
+                        <Nav.Link href="/Orders">Pricing</Nav.Link>
                     </Nav> <Nav className="nav-layout-2">
                         <Link to="/login"><Button type="submit" variant="light" className='btn-home-login'> Login</Button></Link> &nbsp;&nbsp;
                         <Link to="/signup"><Button type="submit" variant="light"  className='btn-home-login'> Signup</Button></Link>

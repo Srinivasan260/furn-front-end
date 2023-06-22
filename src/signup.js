@@ -2,12 +2,16 @@ import React from 'react'
 import Container from "react-bootstrap/esm/Container";
 import Form from 'react-bootstrap/Form';
 import Col from "react-bootstrap/esm/Col";
+import './sign.css'
 
 
 function Signup() {
   return (
     <div>
-           <Container >
+      <br/>
+           <Container  className='signup'>
+
+            <h3> Sign-up form</h3>
         <Form>
       <Form.Group className="mb-3" as={Col} md="7" controlId="exampleForm.ControlInput1">
         <Form.Label>First name</Form.Label>

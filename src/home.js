@@ -42,7 +42,7 @@ function Home() {
                     <Container className="cont-para">
                     &nbsp;&nbsp;&nbsp; <h4 className='h4-pa'> <b className='SR-nav'>SR </b>Furnitures  </h4> 
 
-                        <p className="p-para">SR Furnitures is a reputable furniture company specializing in high-quality and stylish furniture pieces. With a focus on craftsmanship, durability, and aesthetic appeal, SR Furnitures offers a wide range of furniture products to enhance and beautify your living spaces. From sofas and chairs to tables and storage solutions, SR Furnitures combines functionality and design to create furniture that meets the diverse needs and preferences of customers. With a commitment to excellent customer service and a passion for creating beautiful interiors, SR Furnitures aims to provide customers with the perfect furniture solutions for their homes or commercial spaces.</p>
+                        <p className="p-para">SR Furnitures is a reputable furniture company specializing in high-quality and stylish furniture pieces. With a focus on craftsmanship, durability, and aesthetic appeal, SR Furnitures offers a wide range of furniture products to enhance and beautify your living spaces. From sofas and chairs to tables and storage solutions, SR Furnitures combines functionality and design to create furniture that meets the diverse needs and preferences of customers. With a commitment to excellent customer service and a passion for creating beautiful interiors, SR Furnitures aims to provide customers with the perfect furniture solutions for their homes or commercial spaces.<br/><br/><br/></p>
 
                     </Container>
 
@@ -58,7 +58,7 @@ function Home() {
             <div className="para">
             <Container className="cont-para"><br />
                 
-                <p className="p-para">SR Furnitures is a reputable furniture company specializing in high-quality and stylish furniture pieces. With a focus on craftsmanship, durability, and aesthetic appeal, SR Furnitures offers a wide range of furniture products to enhance and beautify your living spaces. From sofas and chairs to tables and storage solutions, SR Furnitures combines functionality and design to create furniture that meets the diverse needs and preferences of customers. With a commitment to excellent customer service and a passion for creating beautiful interiors, SR Furnitures aims to provide customers with the perfect furniture solutions for their homes or commercial spaces.</p>
+                <p className="p-para">SR Furnitures is a reputable furniture company specializing in high-quality and stylish furniture pieces. With a focus on craftsmanship, durability, and aesthetic appeal, SR Furnitures offers a wide range of furniture products to enhance and beautify your living spaces. From sofas and chairs to tables and storage solutions, SR Furnitures combines functionality and design to create furniture that meets the diverse needs and preferences of customers. With a commitment to excellent customer service and a passion for creating beautiful interiors, SR Furnitures aims to provide customers with the perfect furniture solutions for their homes or commercial spaces.<br/><br/><br/></p>
                 </Container>
                 </div>
                 <div className="image">
@@ -82,7 +82,7 @@ function Home() {
 
                     <Container className="cont-para"><br />
 
-                        <p className="p-para">SR Furnitures is a reputable furniture company specializing in high-quality and stylish furniture pieces. With a focus on craftsmanship, durability, and aesthetic appeal, SR Furnitures offers a wide range of furniture products to enhance and beautify your living spaces. From sofas and chairs to tables and storage solutions, SR Furnitures combines functionality and design to create furniture that meets the diverse needs and preferences of customers. With a commitment to excellent customer service and a passion for creating beautiful interiors, SR Furnitures aims to provide customers with the perfect furniture solutions for their homes or commercial spaces.</p>
+                        <p className="p-para">SR Furnitures is a reputable furniture company specializing in high-quality and stylish furniture pieces. With a focus on craftsmanship, durability, and aesthetic appeal, SR Furnitures offers a wide range of furniture products to enhance and beautify your living spaces. From sofas and chairs to tables and storage solutions, SR Furnitures combines functionality and design to create furniture that meets the diverse needs and preferences of customers. With a commitment to excellent customer service and a passion for creating beautiful interiors, SR Furnitures aims to provide customers with the perfect furniture solutions for their homes or commercial spaces.<br/><br/><br/></p>
 
                     </Container>
 
