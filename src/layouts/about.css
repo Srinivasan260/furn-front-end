@@ -1,0 +1,49 @@
+.about-SR{
+
+    margin-left: 35%;
+    margin-top: 2%;
+    
+    
+}
+
+.SR-para{
+    margin-left: 5%;
+    margin-right:5%;
+    margin-top:2%;
+    font-size: 120%
+}
+
+.b-about{
+    color:Orange;
+}
+
+
+
+/* help css */
+.help-con{
+
+    height :0vh;
+    width:50vw;
+    background-color: rgb(158, 158, 186);
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.help-h3{
+  
+    color:black;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+.help-h4{
+    margin-left: 15%;
+}
+.help-btn{
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.help-form{
+    margin-left: 25%;
+    margin-top: 3%;
+}

@@ -33,6 +33,11 @@ import Dresser from "./Products/dresser";
 import PlaceOrders from "./Orders/Place-Orders";
 import ViewOrder from "./Orders/View-Order";
 
+
+// Layout files
+import About from './layouts/about' 
+import Help from './layouts/help'
+
 function App() {
   return (
 
@@ -44,6 +49,8 @@ function App() {
         <Route index element={<Home />} />
         <Route path="signup" element={<Signup />} />
         <Route path="login" element={<Login />} />
+        <Route path="/about"   element={<About/>}/>
+        <Route path="/help"   element={<Help/>}/>
   
         <Route path="/product" element={<Product />}>
           <Route index element={<Sofas />} />

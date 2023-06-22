@@ -12,7 +12,7 @@ function PlaceOrders() {
    
     <div>
 
-<Link to="/view">View your Orders</Link>
+<Link to="/view"><Button  variant="primary" className="View-Place">View Orders </Button></Link>
 
   
 <Container className='cont-orders' variant="outline-primary">

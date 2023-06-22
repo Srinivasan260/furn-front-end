@@ -20,7 +20,7 @@ function ViewOrder() {
                     Product brand : <br/>
                     Price :   <br/>
                     <br/>
-                    <Button class="btn" variant="secondary" type="submit">Submit </Button> &nbsp;&nbsp;
+                    <Button class="btn" variant="secondary" type="submit">Update </Button> &nbsp;&nbsp;
                     <Button class="btn" variant="secondary" type="submit">Delete </Button>
 
                     <img src=""></img>
