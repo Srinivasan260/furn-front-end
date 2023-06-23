@@ -18,6 +18,25 @@
 }
 
 
+.row-log{
+    display: flex;
+    align-items: center;
+}
+
+.img-login{
+    flex:1;
+}
+
+.login-cont{
+    flex:1;
+}
+
+
+.img-log{
+
+    height: 60vh;
+    width: 30vw;
+}
 
 
 

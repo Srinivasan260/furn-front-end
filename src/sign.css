@@ -1,10 +1,31 @@
 .signup{
     height: 85vh;
     width:30vw;
+    color:black;
 
-    background-color: grey;
-    border-radius: 20%;
+    background-color: rgb(136, 146, 146);
+   
+    border-radius: 10%;
+    margin-left: 35%;
+    
 }
+.row-sign{
+    display: flex;
+    align-items: center;
+    
+}
+.img-sign{
+
+    flex:1;
+    margin-left: 20%;
+    /* height: 800px;
+    width:300px */
+
+   
+
+}
+
+
 
 .sign-up-title{
 
@@ -12,6 +33,15 @@
     text-align: center;
 }
 
+.signup-img{
+    height : 50vh;
+    width:30vw;
+}
+
+.signup-main{
+    flex:1;
+    margin-left: -5%;
+}
 
 .signup-form{
 

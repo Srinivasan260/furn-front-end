@@ -5,10 +5,13 @@ import Col from "react-bootstrap/esm/Col";
 import Button from 'react-bootstrap/Button';
 import './login.css'
 import { Link } from 'react-router-dom';
+import  loginimg from './images/Computer login-rafiki.png'
 
 function Login() {
   return (
     <div>
+      <div className='row-log'>
+        <div className='login-cont'>
       <Container  className="cont-login">
 
       <div className="cont-login2">
@@ -32,7 +35,12 @@ function Login() {
     <Link to path="/signup" className='sign'>Signup</Link>
     </div>
     </Container>
+    </div>
+    <div className='img-login'>
+      <img src={loginimg}  className='img-log'/>
 
+    </div>
+    </div>
     </div>
   )
 }

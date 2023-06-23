@@ -34,16 +34,26 @@
     color:black;
     margin-left: 40%;
     margin-top: 5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.cont-help{
+
+    background-color: grey;
+    width: 40vw;
+}
+
+
 .help-h4{
-    margin-left: 15%;
-}
-.help-btn{
     margin-left: 20%;
+}
+
+.help-btn{
+    margin-left: 35%;
     margin-top: 3%;
 }
 
 .help-form{
-    margin-left: 25%;
+    margin-left: 5%;
     margin-top: 3%;
 }

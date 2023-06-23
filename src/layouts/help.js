@@ -10,13 +10,15 @@ import './about.css'
 function Help() {
   return (
     <div>
-     <div >
+     <div>
         
 
 
-  <h1 className="help-h3"> HELP ?</h1>
+  <br/>
 
-  <Container>
+  <Container className='cont-help'>
+ 
+  <h1 className="help-h3"> <b>HELP ?</b></h1>
 
 
   
@@ -25,7 +27,7 @@ function Help() {
 
   <Form >
 
-    <Form.Group as={Col} md="5" controlId="exampleForm.ControlTextarea1">
+    <Form.Group as={Col} md="11" controlId="exampleForm.ControlTextarea1">
       <Form.Label>Report a Problem :</Form.Label>
       <Form.Control as="textarea" rows={3}  />
     </Form.Group>

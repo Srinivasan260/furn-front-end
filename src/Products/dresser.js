@@ -22,77 +22,77 @@ function Dresser() {
   <div className="sofa1">
     <img src={dres1} className='sofa-img1' ></img>
     <div className='sofa1-text'>
-    <h4>₹31,999.00</h4>
+    <h4> ₹16,999</h4>
 
 
     <p ><b className="free-sofa1">FREE delivery 22 - 26 June</b></p>
-    <p> Adorn India Rio Decent L Shape 6 Seater Corner Sofa Set Left Side Handle (Brown)</p>
+    <p>The Attic Jodhpur Drawer Chest|Kitchen and Living Room Storage|Solid Wood|Natural + White Matte Finish</p>
       </div>
 
   </div>
   <div className="sofa1">
     <img src={dres2} className='sofa-img1' ></img>
     <div className='sofa1-text'>
-    <h4>₹31,999.00</h4>
+    <h4> ₹20,999</h4>
 
 
     <p ><b className="free-sofa1">FREE delivery 22 - 26 June</b></p>
-    <p> Adorn India Rio Decent L Shape 6 Seater Corner Sofa Set Left Side Handle (Brown)</p>
+    <p>Inmarwar Solid Acacia Wood & Iron Chest Of Drawers | Chest of Drawers Wooden | Purewood Console Cabinet for Bedroom | Side Drawer Cabinet For Living Room  </p>
       </div>
 
   </div>
   <div className="sofa1">
     <img src={dres3} className='sofa-img1' ></img>
     <div className='sofa1-text'>
-    <h4>₹31,999.00</h4>
+    <h4> ₹16,099</h4>
 
 
     <p ><b className="free-sofa1">FREE delivery 22 - 26 June</b></p>
-    <p> Adorn India Rio Decent L Shape 6 Seater Corner Sofa Set Left Side Handle (Brown)</p>
+    <p>Wood World Solid Sheesham Wood | Chest of 5 Drawers for Living Room Bedroom | Hall Home Office Furniture | Multipurpose Wooden Kitchen Cabinet Storage (Maple Finish)</p>
       </div>
 
   </div>
   <div className="sofa1">
     <img src={dres4} className='sofa-img1' ></img>
     <div className='sofa1-text'>
-    <h4>₹31,999.00</h4>
+    <h4>₹12,239</h4>
 
 
     <p ><b className="free-sofa1">FREE delivery 22 - 26 June</b></p>
-    <p> Adorn India Rio Decent L Shape 6 Seater Corner Sofa Set Left Side Handle (Brown)</p>
+    <p> Ebansal Solid Sheesham Wood Chest of Drawer for Bedroom, Wooden 4 Drawers Dresser for Living Room, Drawer Dresser for Bedroom Organization and Storage, Fabric Drawer Organizer for Clothes</p>
       </div>
 
   </div>
   <div className="sofa1">
     <img src={dres5} className='sofa-img1' ></img>
     <div className='sofa1-text'>
-    <h4>₹31,999.00</h4>
+    <h4> ₹15,494</h4>
 
 
     <p ><b className="free-sofa1">FREE delivery 22 - 26 June</b></p>
-    <p> Adorn India Rio Decent L Shape 6 Seater Corner Sofa Set Left Side Handle (Brown)</p>
+    <p> MP WOOD Gocosy Omni Chest Of Drawers (Provincial Teak, Sheesham Wood)</p>
       </div>
 
   </div>
   <div className="sofa1">
     <img src={dres6} className='sofa-img1' ></img>
     <div className='sofa1-text'>
-    <h4>₹31,999.00</h4>
+    <h4>₹16,769</h4>
 
 
     <p ><b className="free-sofa1">FREE delivery 22 - 26 June</b></p>
-    <p> Adorn India Rio Decent L Shape 6 Seater Corner Sofa Set Left Side Handle (Brown)</p>
+    <p> Studio Kook Majestic Engineered Wood Chest of Drawers (Moonshine White, Matte Finish)</p>
       </div>
 
   </div>
   <div className="sofa1">
     <img src={dres7} className='sofa-img1' ></img>
     <div className='sofa1-text'>
-    <h4>₹31,999.00</h4>
+    <h4> ₹14,999</h4>
 
 
     <p ><b className="free-sofa1">FREE delivery 22 - 26 June</b></p>
-    <p> Adorn India Rio Decent L Shape 6 Seater Corner Sofa Set Left Side Handle (Brown)</p>
+    <p> Furniseworld Wooden Maple Finish 5 Chest Drawer Storage Cabinet for Home (Brown)</p>
       </div>
 
   </div>

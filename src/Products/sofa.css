@@ -6,7 +6,7 @@
 }
 
 .sofa1{
-    height: 300px;
+    height: max-content;
     width: 380px;
     background-color: rgb(255, 255, 255);
   
