@@ -1,5 +1,6 @@
 import React from 'react'
 import './about.css'
+import about from '../images/about.png'
 
 function About() {
   return (
@@ -9,18 +10,17 @@ function About() {
             <h1 className='about-SR'><b className='b-about'> SR</b> Furnitures</h1>
 
        
-            <div className='row'>
-                <div className='img'>
+            <div className='row-ab'>
+                <div className='img-ab'>
                   
-                    <img src="" />
+                    <img src={about}  className='about-img'/>
                 </div>
-                <div>
-                <p className="SR-para">     SR Furnitures is a renowned furniture selling shop that offers an extensive collection of furniture to enhance the aesthetics and functionality of homes and businesses. With a commitment to customer satisfaction, SR Furnitures has become a trusted destination for individuals and interior designers seeking top-notch furniture solutions.<br/><br/></p>
-                    
+                <div className='para-ab'>
+                <p className="SR-para">     SR Furnitures is a renowned furniture selling shop that offers an extensive collection of furniture to enhance the aesthetics and functionality of homes and businesses. With a commitment to customer satisfaction, SR Furnitures has become a trusted destination for individuals and interior designers seeking top-notch furniture solutions.At SR Furnitures, customers can explore a diverse range of furniture options to suit various styles and preferences. From modern and contemporary designs to classic and vintage-inspired pieces, the shop boasts a wide selection that caters to different tastes and interior themes. Whether customers are furnishing their living rooms, bedrooms, dining areas, or office spaces, SR Furnitures aims to provide furniture that meets their specific requirements.<br/><br/></p>               
                 </div>
                 </div> 
                 <p className="SR-para"> 
-At SR Furnitures, customers can explore a diverse range of furniture options to suit various styles and preferences. From modern and contemporary designs to classic and vintage-inspired pieces, the shop boasts a wide selection that caters to different tastes and interior themes. Whether customers are furnishing their living rooms, bedrooms, dining areas, or office spaces, SR Furnitures aims to provide furniture that meets their specific requirements.<br/><br/>
+
 
 One of the key strengths of SR Furnitures lies in its emphasis on quality. The shop sources its furniture from reputed manufacturers known for their craftsmanship and attention to detail. Each piece is carefully curated to ensure durability, functionality, and aesthetic appeal. By maintaining high-quality standards, SR Furnitures strives to deliver furniture that exceeds customer expectations and stands the test of time.<br/><br/>
 

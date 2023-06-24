@@ -6,6 +6,7 @@ import Col from "react-bootstrap/esm/Col";
 import Button from 'react-bootstrap/Button';
 import { Link } from "react-router-dom";
 import './Place-Order.css'
+import place from '../images/place-order.png'
 
 function PlaceOrders() {
   return (
@@ -14,13 +15,14 @@ function PlaceOrders() {
 
 <Link to="/view"><Button  variant="primary" className="View-Place">View Orders </Button></Link>
 
-  
+<div className='row-place'>
+  <div className='place-order'>
 <Container className='cont-orders' variant="outline-primary">
-  <br/>
-      <h3 className='Place-Order-title'> <b>Place your orders</b>   </h3>
+  
 
     
     <div className='Place-Order-form' >
+    <h3 className='Place-Order-title'> <b>Place your orders</b>   </h3>
       <Form>
       <Form.Group className="mb-3" as={Col} md="11" controlId="exampleForm.ControlInput1">
         <Form.Label>Product name</Form.Label>
@@ -50,13 +52,14 @@ function PlaceOrders() {
 
 
       </Container>
+      </div>
 
-      <div>
-        <img src=""></img>
+      <div className='image-place'>
+        <img src={place} className='image-place2'></img>
       </div>
 
 
-
+      </div>
 
 
 

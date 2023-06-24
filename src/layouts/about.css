@@ -17,7 +17,22 @@
     color:Orange;
 }
 
+.row-ab{
+    display: flex;
+    align-items: center;
+}
 
+.img-ab{
+    flex:1;
+}
+.para-ab{
+    flex:1;
+}
+
+.about-img{
+    height: 70vh;
+    width:40vw;
+}
 
 /* help css */
 .help-con{
@@ -27,6 +42,24 @@
     background-color: rgb(158, 158, 186);
     margin-top: 5%;
     margin-left: 10%;
+}
+.row-help{
+    display: flex;
+    align-items: center;
+}
+.help-cont{
+    flex:1;
+}
+
+.img-help{
+    flex:1;
+    
+}
+
+.img-help4{
+    height: 50vh;
+    width:30vw;
+    margin-left: 20%;
 }
 
 .help-h3{
@@ -40,12 +73,13 @@
 .cont-help{
 
     background-color: grey;
+    border-radius: 0%;
     width: 40vw;
 }
 
 
 .help-h4{
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 .help-btn{
@@ -56,4 +90,71 @@
 .help-form{
     margin-left: 5%;
     margin-top: 3%;
+}
+
+
+@media only screen and (max-width: 480px){
+    .row-ab{
+        display: inline-block;
+        align-items: center;
+    }
+
+    .about-img{
+        height: 40vh;
+        width:80vw;
+    }
+    .about-SR{
+
+  margin-left: 15%;
+        
+        
+    }
+    .row-help{
+        display: inline-block;
+        align-items: center;
+    }
+   
+    
+    .img-help4{
+        height: 30vh;
+        width:80vw;
+        margin-left: 20%;
+    }
+
+    .cont-help{
+
+        background-color: grey;
+        width: 90vw;
+        border-radius: 5%;
+       
+    }
+    .help-cont{
+       padding: 5px;
+       
+    }
+
+    .help-form{
+      padding: 0%;
+      margin-left: 0%;
+    }
+
+    .help-h3{
+  
+        color:black;
+        margin-left: 40%;
+        margin-top: 10%;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .help-h4{
+        margin-left: 5%;
+        font-size: 130%;
+    }
+
+    .help-btn{
+        margin-left: 35%;
+        margin-top: 5%;
+
+        font-size: 100%;
+    }
+    
 }

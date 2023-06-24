@@ -1,14 +1,31 @@
 .cont-orders{
 
  
-    background-color:grey;
-    height: 70vh;
+    background-color: grey;;
+    height: max-content;
     width: 30vw;
    
     border-radius: 15%;
 
 }
 
+.row-place{
+
+    display: flex;
+    align-items: center;
+}
+.place-order{
+    flex:1;
+}
+.image-place{
+
+    flex:1;
+}
+
+.image-place2{
+    height: 90vh;
+    width: 40vw;
+}
 .Place-Order-title{
 
 padding: 3%;
@@ -19,7 +36,7 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 .Place-Order-form{
-padding: 20px;
+padding: 5%;
 
 }
 
@@ -38,12 +55,8 @@ padding: 20px;
 @media only screen and (max-width: 480px){
 
     .cont-orders{
-
-     
-     background-color: white;  
-     border:1px solid skyblue;
         height: 60vh;
-        width: 100vw;
+        width: 90vw;
         margin-top: 5%;
         border-radius: 15%;
         font-size: 100%;
@@ -58,9 +71,25 @@ padding: 20px;
     .View-Place{
 
         margin-top: 10%;
-        font-size: 100%;
+        font-size: 100%;    
         
-        
+    }
+    .image-place2{
+        height: 60vh;
+        width: 90vw;
+    }
+    .row-place{
+
+        display: inline-block;
+        align-items: center;
+        padding: 3%;
+    }
+    .place-order{
+        flex:1;
+    }
+    .image-place{
+    
+        flex:1;
     }
 }
 

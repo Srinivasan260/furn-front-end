@@ -32,7 +32,7 @@ function Login() {
      <br/>
     <h4 className="h4-cont"> if Don't have an account ,create it</h4>
 
-    <Link to path="/signup" className='sign'>Signup</Link>
+    <Link to="/signup" className='sign'>Signup</Link>
     </div>
     </Container>
     </div>

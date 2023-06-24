@@ -65,5 +65,30 @@ padding: 5%;
     .signup-main{
         padding: 5%;
     }
+    .row-sign{
+        display: inline-block;
+        align-items: center;
+        
+    }
 
+    .signup-img{
+        height : 40vh;
+        width:80vw;
+        margin-left: -2%;
+    }
+
+    .signup{
+        height: 80vh;
+        width:90vw;
+        color:black;
+    
+        background-color: rgb(136, 146, 146);
+       
+        border-radius: 5%;
+        margin-left: 2%;
+        padding: 3%;
+    
+        
+    }
+    
 }

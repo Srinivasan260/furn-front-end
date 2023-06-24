@@ -1,16 +1,14 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import bg from './bg.jpg';
+
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+
 import './home.css'
-import furn from './images/furniture.webp'
-import furn2 from './images/bed.webp'
+import furn from './images/warranty.jpg'
+import furn2 from './images/offer.jpg'
 import furn3 from './images/funi.avif'
-import furn4 from './images/bed2.jpg'
-import logo from './images/logo.jpg';
+
 import furn5 from './images/f2.webp'
 import top from './images/top10.jpg'
 import map from './images/gmap.png'
@@ -56,9 +54,11 @@ function Home() {
 
             <div className="row">
             <div className="para">
-            <Container className="cont-para"><br />
+            <Container className="cont-para">
                 
-                <p className="p-para">SR Furnitures is a reputable furniture company specializing in high-quality and stylish furniture pieces. With a focus on craftsmanship, durability, and aesthetic appeal, SR Furnitures offers a wide range of furniture products to enhance and beautify your living spaces. From sofas and chairs to tables and storage solutions, SR Furnitures combines functionality and design to create furniture that meets the diverse needs and preferences of customers. With a commitment to excellent customer service and a passion for creating beautiful interiors, SR Furnitures aims to provide customers with the perfect furniture solutions for their homes or commercial spaces.<br/><br/><br/></p>
+                <p className="p-para"><b className='fifty-home'>50%   </b>ntroducing the Exciting Offer from Sr Furnitures: Get 30% Off on All Products!
+
+We are thrilled to announce an irresistible deal for all furniture enthusiasts out there. Sr Furnitures, your trusted destination for exquisite and high-quality furniture pieces, is now offering an exclusive discount of 30% on all our products. Whether you're looking to revamp your living room, upgrade your bedroom, or add a touch of elegance to your workspace, now is the perfect time to fulfill your furniture dreams without breaking the bank. <br/><br/><br/></p>
                 </Container>
                 </div>
                 <div className="image">
@@ -82,7 +82,11 @@ function Home() {
 
                     <Container className="cont-para"><br />
 
-                        <p className="p-para">SR Furnitures is a reputable furniture company specializing in high-quality and stylish furniture pieces. With a focus on craftsmanship, durability, and aesthetic appeal, SR Furnitures offers a wide range of furniture products to enhance and beautify your living spaces. From sofas and chairs to tables and storage solutions, SR Furnitures combines functionality and design to create furniture that meets the diverse needs and preferences of customers. With a commitment to excellent customer service and a passion for creating beautiful interiors, SR Furnitures aims to provide customers with the perfect furniture solutions for their homes or commercial spaces.<br/><br/><br/></p>
+                        <p className="p-para"><b className='warran-bold'>Warranty Statement :  &nbsp;</b>For a period of one year from the date of purchase, we guarantee that our furniture will be free from defects in materials and workmanship. This warranty covers structural integrity and ensures that your furniture will function as intended under normal use.
+
+In addition to the one-year warranty, we also provide a 10-day replacement policy. If you encounter any issues with your furniture within the first 10 days of receiving it, we will gladly replace the item for you. This policy ensures that you are completely satisfied with your purchase and allows for a hassle-free experience.
+
+Please note that the warranty and replacement policy do not cover damages resulting from improper use, negligence, accidents, or modifications made to the furniture without our authorization. It is essential to follow the care instructions provided with each product to maintain its condition and maximize its longevity.<br/><br/><br/></p>
 
                     </Container>
 

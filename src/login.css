@@ -3,7 +3,7 @@
     width: 400px;
     margin-top: 8%;
     background-color: rgb(136, 146, 146);
-    border-radius: 15%;
+    border-radius: 10%;
 }
 
 .h3-cont {
@@ -73,6 +73,24 @@
     font-size: 100%;
     margin-left: 14%;
 
+}
+.row-log{
+    display: inline-block;
+    align-items: center;
+}
+
+.img-login{
+    flex:1;
+}
+
+.login-cont{
+    flex:1;
+    margin-left: 2%;
+}
+.img-log{
+
+    height: 45vh;
+    width: 90vw;
 }
 
 }
