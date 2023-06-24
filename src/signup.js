@@ -9,6 +9,9 @@ import signup from './images/logi.png'
 
 
 function Signup() {
+
+
+  
   return (
     <div>
       <br />
