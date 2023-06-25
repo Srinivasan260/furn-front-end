@@ -23,6 +23,10 @@ function Home() {
     setSlideIn2(true);
     setSlideIn3(true);
   }, []);
+
+
+  
+
   return (
     <div className='home-pro'>
         <div className={`slide-in1 ${slideIn1 ? 'active' : ''}`}>

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Outlet, Link } from "react-router-dom";
+import React, { useEffect } from 'react';
+import { Outlet, Link, useNavigate } from "react-router-dom";
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -13,7 +13,22 @@ import Button from 'react-bootstrap/Button';
 
 
 function Layout() {
-   
+      
+    const auth = localStorage.getItem('user')
+    const navigate = useNavigate()
+
+    useEffect (()=>{
+
+        console.log(auth)
+
+    },[])
+
+
+    const logout = () => {
+        localStorage.clear()
+        navigate('/')
+      }
+    
     return (
         <div className='layout'>
             <nav>
@@ -31,8 +46,8 @@ function Layout() {
                         <Nav.Link href="/help">Help</Nav.Link>&nbsp;&nbsp;
                         <Nav.Link href="/Orders">Orders</Nav.Link>
                     </Nav> <Nav className="nav-layout-2">
-                        <Link to="/login"><Button type="submit" variant="light" className='btn-home-login'> Login</Button></Link> &nbsp;&nbsp;
-                        <Link to="/signup"><Button type="submit" variant="light"  className='btn-home-login'> Signup</Button></Link>
+                     {  auth ?<> <Link to="/login"><Button type="submit" variant="light" className='btn-home-login' onClick={logout}> Logout</Button></Link> &nbsp;<i class="bi bi-person-circle" id="acc"></i> <h6 className='auth-name'>{JSON.parse(auth).firstname}</h6> </> : <> <Link to="/login"><Button type="submit" variant="light" className='btn-home-login'> Login</Button></Link> &nbsp;&nbsp;
+                        <Link to="/signup"><Button type="submit" variant="light"  className='btn-home-login'> Signup</Button></Link></>}
                       
                     <br/><br/>
                     </Nav>

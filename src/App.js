@@ -32,6 +32,7 @@ import Dresser from "./Products/dresser";
 
 import PlaceOrders from "./Orders/Place-Orders";
 import ViewOrder from "./Orders/View-Order";
+import Update from "./Orders/update";
 
 
 // Layout files
@@ -62,6 +63,7 @@ function App() {
         </Route>
         <Route path="/Orders" element={<PlaceOrders />} />
         <Route path="/view" element={<ViewOrder/>} />
+        <Route path="/update/:_id" element={<Update/>} />
 
 
 
