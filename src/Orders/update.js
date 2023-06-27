@@ -6,6 +6,8 @@ import Form from 'react-bootstrap/Form';
 import Col from "react-bootstrap/esm/Col";
 import Button from 'react-bootstrap/Button';
 import {Link,useNavigate,useParams } from "react-router-dom";
+import update from '../images/update.png'
+import './update.css'
 
 export default function Update() {
 
@@ -83,6 +85,8 @@ export default function Update() {
           }
   return (
     <div>
+
+      <br/><br/>
       <div className='row-place'>
   <div className='place-order'>
 <Container className='cont-orders' variant="outline-primary">
@@ -127,7 +131,7 @@ export default function Update() {
       </div>
 
       <div className='image-place'>
-        <img src="" className='image-place2'></img>
+        <img src={update} className='image-place3'></img>
       </div>
 
 

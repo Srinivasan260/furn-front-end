@@ -22,15 +22,15 @@ function Signup() {
 
   const OnSubmit = async (e) => {
     e.preventDefault();
-    if (!firstname|| !Secondname || !Age || !Phn || !password || !email) {
+    if (!firstname || !Secondname || !Age || !Phn || !password || !email) {
       setError(true)
       return false
     }
     else {
-      console.log(firstname,Secondname, Age, Phn, password, email)
+      console.log(firstname, Secondname, Age, Phn, password, email)
       let result = await fetch('http://localhost:3004/signup', {
         method: "post",
-        body: JSON.stringify({ firstname,Secondname, Age, Phn, password, email }),
+        body: JSON.stringify({ firstname, Secondname, Age, Phn, password, email }),
         headers: {
           "Content-type": "Application/JSON"
         }
@@ -46,11 +46,11 @@ function Signup() {
 
 
 
-  
+
   return (
     <div>
       <br />
-       <div className="row-sign">
+      <div className="row-sign">
         <div className='signup-main'>
           <Container className='signup'>
             <Container className='signup-form'>
@@ -64,17 +64,17 @@ function Signup() {
                 </Form.Group>
                 <Form.Group className="mb-3" as={Col} md="11" controlId="exampleForm.ControlInput1">
                   <Form.Label>Second name</Form.Label>
-                  <Form.Control type="text" placeholder="" value={Secondname} onChange={(e) => { setNames(e.target.value) }}/>
+                  <Form.Control type="text" placeholder="" value={Secondname} onChange={(e) => { setNames(e.target.value) }} />
                   {Error && !Secondname && <span class="tre"> enter your name</span>}
                 </Form.Group>
                 <Form.Group className="mb-3" as={Col} md="11" controlId="exampleForm.ControlInput1">
                   <Form.Label>Email address</Form.Label>
-                  <Form.Control type="email" placeholder="name@example.com" value={email} onChange={(e) => { setEmail(e.target.value) }}  />
+                  <Form.Control type="email" placeholder="name@example.com" value={email} onChange={(e) => { setEmail(e.target.value) }} />
                   {Error && !email && <span class="tre"> enter your email</span>}
                 </Form.Group>
                 <Form.Group className="mb-3" as={Col} md="11" controlId="exampleForm.ControlInput1">
                   <Form.Label>Phone number</Form.Label>
-                  <Form.Control type="number" placeholder="name@example.com" value={Phn} onChange={(e) => { setPhn(e.target.value) }}  />
+                  <Form.Control type="number" placeholder="name@example.com" value={Phn} onChange={(e) => { setPhn(e.target.value) }} />
                   {Error && !Phn && <span class="tre"> enter your phn</span>}
                 </Form.Group>
 
@@ -86,22 +86,22 @@ function Signup() {
 
                 <Form.Group className="mb-3" as={Col} md="11" controlId="exampleForm.ControlTextarea1">
                   <Form.Label>Password</Form.Label>
-                  <Form.Control type="password" placeholder="name@example.com"  value={password} onChange={(e) => { setPsw(e.target.value) }}/>
+                  <Form.Control type="password" placeholder="name@example.com" value={password} onChange={(e) => { setPsw(e.target.value) }} />
                   {Error && !password && <span class="tre"> enter your password</span>}
                 </Form.Group>
 
-                <Button class="btn" className='btn-login' variant="primary" type="submit"  onClick={OnSubmit} >Submit </Button>
+                <Button class="btn" className='btn-login' variant="primary" type="submit" onClick={OnSubmit} >Submit </Button>
               </Form>
             </Container>
           </Container>
-      <br></br>
+          <br></br>
         </div>
         <div className='img-sign'>
           <img src={signup} className='signup-img' />
         </div>
-        </div>
       </div>
- 
+    </div>
+
   )
 }
 

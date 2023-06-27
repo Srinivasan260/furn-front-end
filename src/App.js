@@ -39,6 +39,13 @@ import Update from "./Orders/update";
 import About from './layouts/about' 
 import Help from './layouts/help'
 
+
+
+//account settings
+
+import Personal from "./account/personal";
+import Settings from "./account/settings";
+
 function App() {
   return (
 
@@ -65,10 +72,12 @@ function App() {
         <Route path="/view" element={<ViewOrder/>} />
         <Route path="/update/:_id" element={<Update/>} />
 
-
+      
 
         
       </Route>
+      <Route path="/personal-info" element={<Personal/>} />
+      <Route path="/settings" element={<Settings/>} />
     </Routes>
   </BrowserRouter>
 

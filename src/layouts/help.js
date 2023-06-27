@@ -9,33 +9,46 @@ import help from '../images/help.png'
 
 
 function Help() {
+
+  const [Problem, setProblem] = useState('')
+
+  const onHelp = async (e) => {
+    const email = JSON.parse(localStorage.getItem('user')).email;
+    console.log(email)
+    let result = await fetch(`http://localhost:3004/problem/${email}`, {
+      method: "post",
+      body: JSON.stringify({ Problem, email }),
+      headers: {
+        "Content-type": "Application/JSON"
+      }
+    })
+    result = await result.json()
+    console.log(result)
+    if (result) {
+      alert("help successfully")
+
+    }
+
+  }
   return (
     <div>
-      <br /><br/>
-
-
-
+      <br /><br />
       <div className="row-help">
-
         <div className='help-cont'>
+
           <Container className='cont-help'>
-            
 
             <h1 className="help-h3"> <b>HELP ?</b></h1>
-
-
-
 
             <Container className="help-form">
 
               <Form >
-
                 <Form.Group as={Col} md="11" controlId="exampleForm.ControlTextarea1">
                   <Form.Label>Report a Problem :</Form.Label>
-                  <Form.Control as="textarea" rows={3} />
+                  <Form.Control as="textarea" rows={3} value={Problem} onChange={(e) => { setProblem(e.target.value) }} />
                 </Form.Group>
 
-                <Button type="submit" className="help-btn" > Submit</Button>
+                <Button type="submit" className="help-btn" onClick={onHelp}> Submit</Button>
               </Form><br></br>
             </Container>
           </Container>
@@ -56,10 +69,6 @@ function Help() {
       </div>
 
     </div>
-
-
-
-
 
   )
 }

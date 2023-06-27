@@ -64,6 +64,7 @@ padding: 5%;
     
     }
     .Place-Order-button{
+
         margin-left: 15%;
         margin-top: 4%;
         font-size: 100%;
@@ -75,7 +76,7 @@ padding: 5%;
         
     }
     .image-place2{
-        height: 60vh;
+        height: 45vh;
         width: 90vw;
     }
     .row-place{
@@ -97,9 +98,64 @@ padding: 5%;
 
 .view-orders-title{
     margin-left: 10%;
-    margin-top: 5%
+    margin-top: 5%;
+    color:rgb(40, 93, 227);
+    width: max-content;
+    
+}
+#your-orders-icon{
+    color:rgb(40, 93, 227);
 }
 
 .view-orders-details{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:150%;
+}
+
+.row-view{
+
+    display : flex;
+    align-items: center;
+}
+
+.cont-view{
+    flex:1;
+    margin-left: 10%;
+}
+
+.image-view{
+
+    flex:1;
+    
+}
+.image-view2{
+    height: 70vh;
+    width: 40vw;
+    margin-top: -15%;
+}
+
+@media only screen and (max-width: 480px){
+
+    .row-view{
+
+        display : inline-block;
+        align-items: center;
+    }
+    
+    .cont-view{
+        flex:1;
+        margin-left: 10%;
+        font-size: 120%;
+    }
+    
+    .view-button{
+       margin-left: 0%;
+    }
+
+    .image-view2{
+        height:35vh;
+        width: 90vw;
+        margin-top: -15%;
+    }
+    
 }

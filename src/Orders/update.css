@@ -1,0 +1,28 @@
+.image-place3{
+
+    height:60vh;
+    width:30vw;
+    margin-left: 8%;
+}
+
+@media only screen and (max-width: 480px){
+
+.row-place{
+
+    display: inline-block;
+}
+
+.cont-orders{
+    height: max-content;
+    padding: 5%;
+}
+.image-place3{
+
+    height:40vh;
+    width:80vw;
+    margin-left: 0%;
+    padding: 5%;
+}
+
+}
+

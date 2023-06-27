@@ -7,7 +7,7 @@ import Col from "react-bootstrap/esm/Col";
 import Button from 'react-bootstrap/Button';
 import { Link,useNavigate } from "react-router-dom";
 import './Place-Order.css'
-import place from '../images/place-order.png'
+import place from '../images/place-order-2.png'
 
 
 function PlaceOrders() {
