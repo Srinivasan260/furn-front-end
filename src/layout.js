@@ -36,6 +36,26 @@ function Layout() {
         localStorage.clear()
         navigate('/')
       }
+
+      //for image
+      const [uploadedImage, setUploadedImage] = useState(null);
+
+  const handleImageUpload = (event) => {
+    const file = event.target.files[0]; //here we accesing the first line in an array ...if the user selects more than one file it can select the first file
+    const reader = new FileReader();   //using  filr reader function to read the file+
+
+    reader.onload = () => {     //it is a event handler  that is exectued after the file is readed
+      setUploadedImage(reader.result);  //then result is placed in uploadimage
+    };
+
+    if (file) {
+      reader.readAsDataURL(file);  
+    }
+  }
+  
+  const handleDeleteImage = () => {
+    setUploadedImage(null);
+  };
     
     return (
         <div className='layout'>
@@ -76,7 +96,24 @@ function Layout() {
         <Offcanvas.Body>
           <div className='acc-details'>
 
-            <i class="bi bi-person-circle" id="acc-icon" ></i>  <h4 className='auth-account'> &nbsp;{JSON.parse(auth).firstname}</h4>
+            {/* <i class="bi bi-person-circle" id="acc-icon" ></i>  <h4 className='auth-account'> &nbsp;</h4> */}
+            <label htmlFor="image-upload">
+        {uploadedImage ? (
+          <div className="circle">
+            <img className="uploaded-image" src={uploadedImage} alt="Uploaded" />
+            <h6 className='uploaded-text'>{JSON.parse(auth).firstname}</h6><Button type="submit" variant="light"   onClick={handleDeleteImage} className='del-home'> Delete</Button> 
+          </div>
+        ) : (
+          <i className="fas fa-upload" id="upload-icon">&nbsp;Profile</i>
+        )}
+      </label>
+      <input
+        id="image-upload"
+        type="file"
+        accept="image/*"
+        onChange={handleImageUpload}
+        style={{ display: 'none' }}
+      />
             <hr></hr>
             <h5 className='personal-info'>&nbsp; <i class="bi bi-info-circle"></i><Link to="/personal-info" className='link-lay'>&nbsp;&nbsp;Personal Information</Link></h5>
 

@@ -19,7 +19,7 @@ function Personal() {
         <h6 className="h6-per-info">Info about you and your preferences across SR Furnitures</h6><br></br>
         <br/>   
         {/* <h6 className="h6-per-infos">   Your profile info in  SR Furnitures: </h6> */}
-        <h6 className="h6-per-infoma">Personal info and options to manage it. You can also see a summary of your profiles.</h6> 
+        {/* <h6 className="h6-per-infoma">Personal info and options to manage it. You can also see a summary of your profiles.</h6>  */}
      </div>
      
      <div className="row-personal">

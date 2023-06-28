@@ -28,8 +28,8 @@
 
    font-size: 210%;
    margin-left: 35%;
-   /* color: blue;
-    */
+   color: blue;
+   
 }
 
 .h6-per-info{
@@ -43,7 +43,7 @@
 .personal-info-details-title{
 
     margin-left: -4%;
-    color:orange;
+    color:blue;
     font-size: 180%;
 }
 
