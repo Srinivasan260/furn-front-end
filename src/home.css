@@ -385,3 +385,25 @@ html{
     text-decoration: none;
     color: white;
   }
+
+  @media only screen and (max-width: 480px){
+
+    .acc-details{
+        font-size: 170%;
+        color:white;
+    }
+    .auth-account{
+        margin-left: 14%;
+        margin-top: -14%;
+        font-size: 130%;
+    }
+    .personal-info{
+        margin-top: 9%;
+        font-size: 95%;
+      }
+    
+      .setting-info{
+        margin-top: 8%;
+        font-size: 95%;
+      }
+  }

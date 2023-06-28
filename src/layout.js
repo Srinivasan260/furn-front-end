@@ -78,9 +78,9 @@ function Layout() {
 
             <i class="bi bi-person-circle" id="acc-icon" ></i>  <h4 className='auth-account'> &nbsp;{JSON.parse(auth).firstname}</h4>
             <hr></hr>
-            <h5 className='personal-info'>&nbsp; <i class="bi bi-info-circle"></i><Link to="/personal-info" className='link-lay'>&nbsp;Personal Information</Link></h5>
+            <h5 className='personal-info'>&nbsp; <i class="bi bi-info-circle"></i><Link to="/personal-info" className='link-lay'>&nbsp;&nbsp;Personal Information</Link></h5>
 
-            <h5 className='setting-info'> &nbsp; <i class="bi bi-gear-fill"></i>&nbsp;<Link to="/settings" className='link-lay'> Settings</Link></h5>
+            <h5 className='setting-info'> &nbsp; <i class="bi bi-gear-fill"></i>&nbsp;<Link to="/settings" className='link-lay'> &nbsp;Settings</Link></h5>
 
 
 
@@ -91,7 +91,7 @@ function Layout() {
         {/* Your footer content */}
      
               <div className="off-canvas-container">
-                <p className='footer-h6'>Privacy policy &nbsp; &nbsp; &nbsp;Refund Policy  &nbsp;&nbsp; &nbsp; Terms & Conditions </p>
+                <p className='footer-h6'><Link to="/privacy" className='link-lay'>Privacy policy</Link> &nbsp; &nbsp; &nbsp;<Link to="/refund" className='link-lay'>Refund Policy  </Link>&nbsp;&nbsp; &nbsp; <Link to="/terms" className='link-lay'>Terms & Conditions</Link> </p>
                <hr></hr>
                <p className='footer-h5'>Follow us   &nbsp;&nbsp;<i class="bi bi-instagram"></i>&nbsp; <i class="bi bi-facebook"></i> &nbsp;<i class="bi bi-twitter"></i></p>
               </div>

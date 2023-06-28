@@ -45,6 +45,9 @@ import Help from './layouts/help'
 
 import Personal from "./account/personal";
 import Settings from "./account/settings";
+import Privacy from "./terms/privacy";
+import Termscond from "./terms/terms-cond";
+import Refund from "./terms/refund";
 
 function App() {
   return (
@@ -78,6 +81,9 @@ function App() {
       </Route>
       <Route path="/personal-info" element={<Personal/>} />
       <Route path="/settings" element={<Settings/>} />
+      <Route path="/privacy" element={<Privacy/>} />
+      <Route path="/terms" element={<Termscond/>} />
+      <Route path="/refund" element={<Refund/>} />
     </Routes>
   </BrowserRouter>
 

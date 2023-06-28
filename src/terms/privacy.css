@@ -1,0 +1,245 @@
+.img-privacy{
+
+    height : 60vh;
+    width : 30vw;
+    margin-left: 10%;
+    
+}
+
+.rows-image{
+
+    display: flex;
+    align-items: center;
+    
+}
+.priimg{
+    flex:1;
+}
+
+.text-para{
+    flex:1;
+    margin-left: 3%;
+
+    
+}
+
+.Privacy-text{
+    margin-left: 25%;
+    color:black;
+}
+
+.Privacy-details{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 160%;
+}
+/* .privacy-h4{
+    margin-left: 4%;
+
+} */
+.privacy-info{
+    font-size: 120%;
+    margin-left: 3%;
+  
+}
+.privacy-para{
+    margin-left: 5%;
+
+}
+.privacy-info2{
+    margin-left: 5%;
+    font-size: 115%;
+}
+.child-privacy{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+#hr-privacy{
+    width: 100%;
+
+color: black;
+  
+    margin-left: 0%;
+    
+}
+.copy{
+   text-align: center;
+    font-size: 120%;
+}
+
+@media only screen and (max-width: 480px){
+
+    .rows-image{
+
+        display: inline-block;
+        align-items: center;
+        
+    }
+    .img-privacy{
+
+        height : 40vh;
+        width : 90vw;
+       margin-left: 0%;
+        
+    }
+    .privacy{
+        padding: 3%;
+
+    }
+    .Privacy-details{
+        margin-top: 3%;
+        
+    }
+    .copy{
+        padding: 3px;
+    }
+}
+
+
+
+/* refund policy */
+/* .terms-main{
+
+
+} */
+.row-refund{
+
+    display: flex;
+    align-items: center;
+}
+
+.ref{
+    margin-left: 5%;
+    margin-top: -2%;
+}
+.refund-details{
+    margin-left: 3%;
+    font-size: 110%;
+}
+
+.refund-para{
+    flex:1;
+    margin-left: 5%;
+    font-size:140%;
+}
+.refund-subtitle{
+    font-size: 130%;
+}
+
+.refund-img{
+    flex:1;
+    margin-left: 4%;
+}
+
+.img-ref{
+    height:60vh;
+    width:30vw;
+}
+
+.refund-title{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 480px){
+
+
+
+    .row-refund{
+
+        display: inline-block;
+    }
+    .img-ref{
+        height:40vh;
+        width:90vw;
+    }
+    .refund{
+        padding:5%;
+    }
+   
+    .refund-subtitle{
+        font-size: 170%;
+    }
+
+    .refund-details{
+        margin-left: 1%;
+        font-size: 130%;
+    }
+}
+
+
+/* terms & conditions */
+
+.terms-row{
+
+    display: flex;
+    align-items: center;
+}
+
+.term-para{
+    flex:1;
+    margin-left: 0%;
+   
+  
+
+}
+
+.term-img{
+    flex:1;
+    margin-left: 20%;
+}
+
+
+.img-term{
+    height: 70vh;
+    width:30vw;
+    margin-left: -35%;
+    
+}
+
+.terms-title{
+    text-align: center;
+    margin-top: 0%;
+}
+.terms-details{
+
+    font-size: 140%;
+    margin-left: 10%;
+
+}
+.term-info{
+
+    margin-left: 5%;
+    margin-top: -3%;
+}
+
+.term-info-term{
+
+    margin-left: 3%;
+    font-size:115%;
+}
+
+
+
+@media only screen and (max-width: 480px){
+
+
+    .terms-row{
+
+        display: inline-block;
+       
+    }
+    .img-term{
+        height: 50vh;
+        width:80vw;
+        margin-left: 0%;
+     
+        
+    }
+  .terms-main{
+    overflow-x: hidden;
+    padding: 5%;
+
+  }
+}
