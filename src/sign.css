@@ -1,12 +1,14 @@
 .signup{
-    height: 85vh;
-    width:30vw;
-    color:black;
-
-    background-color: rgb(136, 146, 146);
+    height: 90vh;
+    width:27vw;
    
-    border-radius: 10%;
-    margin-left: 35%;
+  
+    background-color: rgb(188, 208, 215);
+    /* border-radius: 10%; */
+
+    margin-left: 30%;
+    margin-top: 5%;
+ 
     
 }
 .row-sign{
@@ -17,7 +19,7 @@
 .img-sign{
 
     flex:1;
-    margin-left: 20%;
+    margin-left: 10%;
     /* height: 800px;
     width:300px */
 
@@ -30,24 +32,35 @@
 .sign-up-title{
 
     color:black;
-    text-align: center;
+    margin-left: 27%;
+    margin-top: 5%;
+ 
 }
 
 .signup-img{
-    height : 50vh;
-    width:30vw;
+    height : 67vh;
+    width:33vw;
 }
 
 .signup-main{
     flex:1;
-    margin-left: -5%;
+
+}
+.btn-signuo{
+    width: 90%;
+    margin-top: 2%;
 }
 
 .signup-form{
 
-padding: 5%;
-}
+margin-left: 4%;
 
+}
+.span-error{
+  
+    color:red;
+    
+}
 
 
 @media only screen and (max-width: 480px){

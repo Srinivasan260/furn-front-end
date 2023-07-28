@@ -125,7 +125,7 @@ function Layout() {
 
             {/* <footer class="row-fixed bottom"> */}
             <footer className="off-canvas-footer">
-        {/* Your footer content */}
+        {/*footer content */}
      
               <div className="off-canvas-container">
                 <p className='footer-h6'><Link to="/privacy" className='link-lay'>Privacy policy</Link> &nbsp; &nbsp; &nbsp;<Link to="/refund" className='link-lay'>Refund Policy  </Link>&nbsp;&nbsp; &nbsp; <Link to="/terms" className='link-lay'>Terms & Conditions</Link> </p>

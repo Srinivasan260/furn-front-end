@@ -50,6 +50,10 @@ import Settings from "./account/settings";
 import Privacy from "./terms/privacy";
 import Termscond from "./terms/terms-cond";
 import Refund from "./terms/refund";
+import Updateper from "./account/update-per";
+import Otpverification from "./email/otpverify";
+
+
 
 function App() {
   return (
@@ -62,8 +66,10 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/about"   element={<About/>}/>
-        <Route path="/help"   element={<Help/>}/>
+        <Route path="/Otp/:id" element={<Otpverification/>}/>
+       
+        <Route path="/about"  element={<About/>}/>
+        <Route path="/help"  element={<Help/>}/>
   
         <Route path="/product" element={<Product />}>
           <Route index element={<Sofas />} />
@@ -86,6 +92,7 @@ function App() {
       <Route path="/privacy" element={<Privacy/>} />
       <Route path="/terms" element={<Termscond/>} />
       <Route path="/refund" element={<Refund/>} />
+      <Route path="/update-per" element={<Updateper/>}/>
     </Routes>
   </BrowserRouter>
 

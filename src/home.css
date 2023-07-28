@@ -32,13 +32,15 @@
     
 }
 .del-home{
-    margin-left: 125%;
+    margin-left: 225%;
     font-size: 50%;
+    
    
 }
 .uploaded-text{
-    margin-left: 138%;
-    margin-top: 3%;
+    margin-left: 135%;
+    margin-top: 5%;
+    font-size: 90%;
 }
 
 .auth-name{

@@ -28,7 +28,7 @@
 
    font-size: 210%;
    margin-left: 35%;
-   color: blue;
+   color: black;
    
 }
 
@@ -36,6 +36,8 @@
      
     margin-left: 30%;
     font-size: 130%;
+
+   
    
     
 
@@ -43,7 +45,7 @@
 .personal-info-details-title{
 
     margin-left: -4%;
-    color:blue;
+  
     font-size: 180%;
 }
 
@@ -69,7 +71,10 @@
  
     height: 100vh;
     width: 100vw;
-    position :fixed;
+    position :relative;
+   
+    color:black;
+
 
 }
 
@@ -162,6 +167,7 @@
 .settings-title-h3{
     margin-top: 5%;
     margin-left: 8%;
+    font-size: 250%;
 }
 
 .settings-details{

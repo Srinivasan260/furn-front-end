@@ -57,7 +57,7 @@ function Help() {
           <br></br>
 
 
-          <h4 className="help-h4"> If You Encountered any problem .Please report it.Our team can fix it as soon as possible.</h4>
+          <h4 className="help-h4"> If You Encountered any problem .Please report Here.Our team can fix that, as soon as possible.</h4>
 
 
         </div>

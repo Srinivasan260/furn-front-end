@@ -16,6 +16,7 @@ function Login() {
 
 
     const navigate = useNavigate('');
+    
     useEffect(() => {
       const auth = localStorage.getItem('user')
       if (auth) {
@@ -71,13 +72,15 @@ function Login() {
       <Form.Group className="mb-3" as={Col} md="11" controlId="exampleForm.ControlTextarea1">
         <Form.Label>Password</Form.Label>
         <Form.Control type="password" placeholder="#####" value={password} onChange={(e) => { setPsw(e.target.value) }} />
+        <h5 className='Forget-password'> Forget Password?</h5>
       </Form.Group><br/>
-      <Button class="btn" className='btn-login' variant="primary"  type="submit" onClick={onSub}>Submit </Button>
+      <Button class="btn" className='btn-login' variant="primary"  type="submit" onClick={onSub}>Login </Button>
     </Form>
      <br/>
     <h4 className="h4-cont"> if Don't have an account ,create it</h4>
 
     <Link to="/signup" className='sign' >Signup</Link>
+    <br/>
     </div>
     </Container>
     </div>

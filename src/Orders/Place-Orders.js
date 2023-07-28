@@ -30,6 +30,10 @@ function PlaceOrders() {
   const OnProd =async(e)=>{
 
     e.preventDefault();
+    if (!Productname || !Category || !Productbrand || !Price) {
+      setError(true)
+      return false }
+      else{
     console.log(auth)
     const email = JSON.parse(localStorage.getItem('user')).email;
     console.log(email)
@@ -47,6 +51,7 @@ function PlaceOrders() {
     alert('Your order is placed')
     navigate('/view')
     }
+  }
     
   }
 
@@ -68,19 +73,27 @@ function PlaceOrders() {
       <Form.Group className="mb-3" as={Col} md="11" controlId="exampleForm.ControlInput1">
         <Form.Label>Product name</Form.Label>
         <Form.Control type="text" placeholder="Chair or Bed" value={Productname}  onChange={(e)=>{setProduct(e.target.value)}} />
+        {Error && !Productname && <span className="span-error"> Enter Product name!</span>}
        </Form.Group>
+
        <Form.Group className="mb-3" as={Col} md="11" controlId="exampleForm.ControlInput1">
         <Form.Label>category</Form.Label>
         <Form.Control type="text" placeholder="Wood" value={Category}  onChange={(e)=>{setCategory(e.target.value)}} />
+        {Error && !Category && <span className="span-error"> Enter Category!</span>}
        </Form.Group>
+
        <Form.Group className="mb-3" as={Col} md="11" controlId="exampleForm.ControlInput1">
         <Form.Label>Product brand</Form.Label>
-        <Form.Control type="text" placeholder=""  value={Productbrand} onChange={(e)=>{setProductbrand(e.target.value)}}/>
+        <Form.Control type="text" placeholder="just copy paste from the orders"  value={Productbrand} onChange={(e)=>{setProductbrand(e.target.value)}}/>
+        {Error && !Productbrand && <span className="span-error"> Enter Productbrand!</span>}
        </Form.Group>
+
        <Form.Group className="mb-3" as={Col} md="11" controlId="exampleForm.ControlInput1">
-        <Form.Label>Price</Form.Label>
-        <Form.Control type="text/number" placeholder="55000"  value={Price} onChange={(e)=>{setPrice(e.target.value)}}/>
+        <Form.Label>Count</Form.Label>
+        <Form.Control type="text/number" placeholder="5"  value={Price} onChange={(e)=>{setPrice(e.target.value)}}/>
+        {Error && !Price && <span className="span-error"> Enter Price!</span>}
        </Form.Group>
+
        <Button variant="primary" className='Place-Order-button' onClick={OnProd}>Place Your Order</Button>
 
       </Form>

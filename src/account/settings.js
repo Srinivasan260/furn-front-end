@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import  settings from '../images/settings.png';
-import set2 from '../images/view-order.png'
+
 
 function Settings() {
     const auth = localStorage.getItem('user')

@@ -14,12 +14,11 @@ function Personal() {
        <div className='personal-details'>
             
         <div className="info-para"><br/><br/>
-        <h2 className='personal-info-title'><i class="bi bi-info-lg"></i>Personal Information </h2><br/>
+        <h2 className='personal-info-title'><i class="bi bi-info-lg"></i><b>Personal Information </b></h2><br/>
          
         <h6 className="h6-per-info">Info about you and your preferences across SR Furnitures</h6><br></br>
         <br/>   
-        {/* <h6 className="h6-per-infos">   Your profile info in  SR Furnitures: </h6> */}
-        {/* <h6 className="h6-per-infoma">Personal info and options to manage it. You can also see a summary of your profiles.</h6>  */}
+      
      </div>
      
      <div className="row-personal">
@@ -27,7 +26,7 @@ function Personal() {
     
       {/*  */}
         <Container id="cont-per"><br></br>
-          <h3 className="personal-info-details-title">Basic info :</h3><br></br>
+          <h3 className="personal-info-details-title"><b>Basic info :</b></h3><br></br>
 
           <h4 id="personal-info-details">First name : <b id="per-json">{JSON.parse(auth).firstname}</b></h4>
           <br></br>
@@ -37,6 +36,8 @@ function Personal() {
           <h4 id="personal-info-details">Age : <b id="per-json">{JSON.parse(auth).Age}</b> </h4><br></br>
           <h4 id="personal-info-details">Phone Number : <b id="per-json">{JSON.parse(auth).Phn}</b></h4><br></br>
           {/* </Container> */}
+
+         <Link to="/update-per" ><Button type="submit" variant="primary"  className='btn-home-login'> Update</Button></Link>
         </Container>
 
 
